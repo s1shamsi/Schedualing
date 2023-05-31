@@ -36,11 +36,11 @@ public class Schedual {
 //10-@Scheduled(cron = "0 0 * 1 * *")
 
 
-//11-
-@Scheduled(cron = "0 0/30 8-17 * * MON-FRI")
+//11-@Scheduled(cron = "0 0/30 8-17 * * MON-FRI")
 
 
-//12-@Scheduled(cron = "")
+//12-
+@Scheduled(cron = "0 0 * 15 * *")
 
 
 //13- @Scheduled(cron = "")
