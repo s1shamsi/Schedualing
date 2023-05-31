@@ -72,11 +72,11 @@ public class Schedual {
 //21-@Scheduled(cron = "0 30 3 * * MON-FRI")
 
 
-//22-
-@Scheduled(cron = "0 0 9-17 15 * *")
+//22-@Scheduled(cron = "0 0 9-17 15 * *")
 
 
-//23-@Scheduled(cron = "")
+//23-
+@Scheduled(cron = "0 15 8 * * MON-THU")
 
 
 //24-@Scheduled(cron = "")
