@@ -153,11 +153,11 @@ public class Schedual {
 //48-@Scheduled(cron = "0 30 17 1 * ?")
 
 
-//49-
-@Scheduled(cron = "0 0 3 ? 11 MON-FRI")
+//49-@Scheduled(cron = "0 0 3 ? 11 MON-FRI")
 
 
-//50-@Scheduled(cron = "")
+//50-
+@Scheduled(cron = "0 0/10 9-16 ? * MON-FRI")
 
     public void schedule1(){
         System.out.println("Hello world, This Said from CodeLine");
