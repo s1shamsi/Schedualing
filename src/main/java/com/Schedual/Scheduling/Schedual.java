@@ -6,11 +6,11 @@ import org.springframework.stereotype.Component;
 @Component
 public class Schedual {
 
-//1-
-@Scheduled(cron = "0 */5 * * * *")
+//1-@Scheduled(cron = "0 */5 * * * *")
 
 
-//2-@Scheduled(cron = "")
+//2-
+@Scheduled(cron = "0 0 * * * *")
 
 
 //3-  @Scheduled(cron = "")
