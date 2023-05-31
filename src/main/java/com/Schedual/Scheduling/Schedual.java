@@ -150,11 +150,11 @@ public class Schedual {
 //47-@Scheduled(cron = "0 30 13 ? * 6")
 
 
-//48-
-@Scheduled(cron = "0 30 17 1 * ?")
+//48-@Scheduled(cron = "0 30 17 1 * ?")
 
 
-//49-@Scheduled(cron = "")
+//49-
+@Scheduled(cron = "0 0 3 ? 11 MON-FRI")
 
 
 //50-@Scheduled(cron = "")
