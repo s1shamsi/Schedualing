@@ -12,7 +12,8 @@ public class Schedual {
 //2-@Scheduled(cron = "0 0 * * * *")
 
 
-//3-  @Scheduled(cron = "")
+//3-
+@Scheduled(cron = "0 30 14 * * *")
 
 
 //4-@Scheduled(cron = "")
