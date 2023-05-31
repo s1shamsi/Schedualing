@@ -22,7 +22,7 @@ public class Schedual {
 
 
 //6-
-@Scheduled(cron = "0 30 19,22 * * SUN")
+ @Scheduled(cron = "0 30 19,22 * * SUN")
 
 
 //7- @Scheduled(cron = "")
