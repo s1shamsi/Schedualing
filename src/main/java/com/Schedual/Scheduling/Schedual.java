@@ -18,11 +18,11 @@ public class Schedual {
 //4-@Scheduled(cron = "0 0 8 ? * MON")
 
 
-//5-
-@Scheduled(cron = "0 0 3 1 * *")
+//5-@Scheduled(cron = "0 0 3 1 * *")
 
 
-//6-   @Scheduled(cron = "")
+//6-
+@Scheduled(cron = "0 30 19,22 * * SUN")
 
 
 //7- @Scheduled(cron = "")
